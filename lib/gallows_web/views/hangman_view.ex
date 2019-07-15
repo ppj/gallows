@@ -14,4 +14,12 @@ defmodule GallowsWeb.HangmanView do
   def display_word(letters) do
     letters |> Enum.join(" ")
   end
+
+  def turn(left, min) when left <= min do
+    "opacity: 1"
+  end
+
+  def turn(left, min) do
+    "opacity: 0.1"
+  end
 end
