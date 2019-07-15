@@ -20,7 +20,7 @@ defmodule GallowsWeb.Views.Helpers.GameStateHelper do
 
   defp alert({class, message}) do
     """
-    <div class="alert, alert-#{class}">
+    <div class="alert alert-#{class}">
       #{message}
     </div>
     """

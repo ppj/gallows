@@ -39,6 +39,11 @@ select {
   background-color: #d9edf7;
   border-color: #bce8f1;
 }
+.alert-success {
+  color: #2a4f34;
+  background-color: #c3e8cd;
+  border-color: #a5ddb4;
+}
 .alert-warning {
   color: #8a6d3b;
   background-color: #fcf8e3;
